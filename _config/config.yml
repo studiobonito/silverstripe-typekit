@@ -1,0 +1,6 @@
+LeftAndMain:
+  extensions:
+    - 'StudioBonito\SilverStripe\TypeKit\Extensions\LeftAndMainRequirementsExtension'
+SiteConfig:
+  extensions:
+    - 'StudioBonito\SilverStripe\TypeKit\Extensions\TypeKitSiteConfigExtension'
