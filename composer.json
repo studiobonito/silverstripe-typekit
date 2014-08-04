@@ -10,6 +10,9 @@
             "email": "tom.densham@studiobonito.co.uk"
         }
     ],
+    "require": {
+        "silverstripe/framework": "~3.1.0"
+    },
     "autoload": {
         "psr-4": {
             "StudioBonito\\SilverStripe\\TypeKit\\": "src/"
