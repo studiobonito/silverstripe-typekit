@@ -2,7 +2,13 @@
     "name": "studiobonito/silverstripe-typekit",
     "description": "Provide TypeKit integration for SilverStripe CMS.",
     "type": "silverstripe-module",
-    "keywords": ["silverstripe", "typography", "typekit"],
+    "keywords": [
+        "studiobonito",
+        "silverstripe-typekit",
+        "silverstripe",
+        "typography",
+        "typekit"
+    ],
     "license": "BSD-2-Clause",
     "authors": [
         {
