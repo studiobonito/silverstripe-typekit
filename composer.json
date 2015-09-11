@@ -9,6 +9,7 @@
         "typography",
         "typekit"
     ],
+    "homepage": "https://github.com/studiobonito/silverstripe-typekit",
     "license": "BSD-2-Clause",
     "authors": [
         {
