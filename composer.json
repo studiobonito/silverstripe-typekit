@@ -14,7 +14,9 @@
     "authors": [
         {
             "name": "Tom Densham",
-            "email": "tom.densham@studiobonito.co.uk"
+            "email": "tom.densham@studiobonito.co.uk",
+            "homepage": "http://www.studiobonito.co.uk",
+            "role": "Developer"
         }
     ],
     "require": {
