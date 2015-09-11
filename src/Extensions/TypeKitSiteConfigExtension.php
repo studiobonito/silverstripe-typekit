@@ -1,6 +1,7 @@
 <?php namespace StudioBonito\SilverStripe\TypeKit\Extensions;
 
 use FieldList;
+use FormField;
 use TextField;
 
 /**
@@ -17,14 +18,17 @@ class TypeKitSiteConfigExtension extends \DataExtension
      * @var array
      */
     private static $db = array(
-        'TypeKitID' => 'Varchar(32)'
+        'TypeKitID' => 'Varchar(32)',
     );
 
     public function updateCMSFields(FieldList $fields)
     {
         $fields->addFieldToTab(
             'Root.Services.TypeKit',
-            TextField::create('TypeKitID')
+            TextField::create(
+                'TypeKitID',
+                _t('TypeKitSiteConfigExtension.TYPEKITID', FormField::name_to_label('TypeKitID'))
+            )
         );
     }
 }
