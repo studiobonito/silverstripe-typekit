@@ -3,6 +3,8 @@
 All Notable changes to `studiobonito/silverstripe-typekit` will be documented in this file
 
 ## [Unreleased]
+
+## [1.1.0] - 2015-10-08
 ### Added
 - Updated documentation including changelog and contributing guide.
 - Included `silverstripe-cms` version `~3.1.0` composer dependency.
@@ -19,5 +21,6 @@ All Notable changes to `studiobonito/silverstripe-typekit` will be documented in
 ### Added
 - Updated dependencies to include `silverstripe/framework` version `~3.1.0`.
 
-[Unreleased]: https://github.com/studiobonito/silverstripe-typekit/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/studiobonito/silverstripe-typekit/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/studiobonito/silverstripe-typekit/compare/1.0.1...1.1.0
 [1.0.1]: https://github.com/studiobonito/silverstripe-typekit/compare/1.0.0...1.0.1
