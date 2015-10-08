@@ -8,6 +8,7 @@ All Notable changes to `studiobonito/silverstripe-typekit` will be documented in
 - Included `silverstripe-cms` version `~3.1.0` composer dependency.
 - Included `php` version `>=5.3.0` composer dependency.
 - Included multi-lingual support.
+- Included header block in configuration file.
 
 ### Changed
 - Moved `TypeKitID` field from `Root.TypeKit` tab to `Root.Services.TypeKit` tab.
