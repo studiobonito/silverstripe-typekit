@@ -60,7 +60,7 @@ If you discover any security related issues, please email support@studiobonito.c
 
 The BSD-2-Clause License. Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/github/release/studiobonito/silverstripe-typekit.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/studiobonito/silverstripe-typekit.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/studiobonito/silverstripe-typekit.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/studiobonito/silverstripe-typekit.svg?style=flat-square
