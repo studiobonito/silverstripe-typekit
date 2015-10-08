@@ -2,16 +2,27 @@
     "name": "studiobonito/silverstripe-typekit",
     "description": "Provide TypeKit integration for SilverStripe CMS.",
     "type": "silverstripe-module",
-    "keywords": ["silverstripe", "typography", "typekit"],
+    "keywords": [
+        "studiobonito",
+        "silverstripe-typekit",
+        "silverstripe",
+        "typography",
+        "typekit"
+    ],
+    "homepage": "https://github.com/studiobonito/silverstripe-typekit",
     "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Tom Densham",
-            "email": "tom.densham@studiobonito.co.uk"
+            "email": "tom.densham@studiobonito.co.uk",
+            "homepage": "http://www.studiobonito.co.uk",
+            "role": "Developer"
         }
     ],
     "require": {
-        "silverstripe/framework": "~3.1.0"
+        "php": ">=5.3.0",
+        "silverstripe/framework": "~3.1.0",
+        "silverstripe/cms": "~3.1.0"
     },
     "autoload": {
         "psr-4": {

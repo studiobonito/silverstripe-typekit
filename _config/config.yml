@@ -1,3 +1,6 @@
+---
+Name: typekit
+---
 LeftAndMain:
   extensions:
     - 'StudioBonito\SilverStripe\TypeKit\Extensions\LeftAndMainRequirementsExtension'
