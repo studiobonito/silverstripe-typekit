@@ -10,6 +10,7 @@ All Notable changes to `studiobonito/silverstripe-typekit` will be documented in
 - Included multi-lingual support.
 - Included header block in configuration file.
 - Included `.gitignore` file.
+- Included `.gitattributes` file.
 
 ### Changed
 - Moved `TypeKitID` field from `Root.TypeKit` tab to `Root.Services.TypeKit` tab.
