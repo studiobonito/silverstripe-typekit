@@ -1,6 +1,6 @@
 <?php namespace StudioBonito\SilverStripe\TypeKit\TemplateGlobalProviders;
 
-use SiteConfig;
+use Injector;
 
 /**
  * Provide $TypeKit global template variable for inserting TypeKit javascript.
@@ -22,7 +22,9 @@ class TypeKitTemplateGlobalProvider implements \TemplateGlobalProvider
 
     public static function getTypeKitScript()
     {
-        $siteConfig = SiteConfig::current_site_config();
+        $siteConfigService = Injector::inst()->get('SiteConfig');
+
+        $siteConfig = $siteConfigService->current_site_config();
 
         return "<script type=\"text/javascript\" src=\"//use.typekit.net/{$siteConfig->TypeKitID}.js\"></script>
             <script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>";

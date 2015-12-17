@@ -1,7 +1,7 @@
 <?php namespace StudioBonito\SilverStripe\TypeKit\Extensions;
 
+use Injector;
 use Requirements;
-use SiteConfig;
 
 /**
  * Include the TinyMCE TypeKit plugin with the CMS configured TypeKit ID.
@@ -13,7 +13,9 @@ class LeftAndMainRequirementsExtension extends \LeftAndMainExtension
 {
     public function init()
     {
-        $siteConfig = SiteConfig::current_site_config();
+        $siteConfigService = Injector::inst()->get('SiteConfig');
+
+        $siteConfig = $siteConfigService->current_site_config();
 
         $vars = array('TypeKitID' => $siteConfig->TypeKitID);
 
