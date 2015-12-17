@@ -9,6 +9,7 @@ All Notable changes to `studiobonito/silverstripe-typekit` will be documented in
 ### Fixed
 - Changed namespace from `TemplateGlobalProvider` to `TemplateGlobalProviders` to match directory name.
 - Changed static call on `SiteConfig` to use `Injector` instead for better testing.
+- Increased the minimum version for `silverstripe-framework` and `silverstripe-cms` to `3.1.2`.
 
 ## [1.1.0] - 2015-10-08
 ### Added

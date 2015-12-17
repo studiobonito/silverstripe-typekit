@@ -12,7 +12,7 @@ Allow TypeKit fonts inside HTMLEditorField and provide $TypeKit template variabl
 
 ## Requirements
 
-- SilverStripe 3.1 or newer.
+- SilverStripe 3.1.2 or newer.
 
 ## Install
 
