@@ -3,6 +3,8 @@
 All Notable changes to `studiobonito/silverstripe-typekit` will be documented in this file
 
 ## [Unreleased]
+### Added
+- Created unit tests.
 
 ## [1.1.0] - 2015-10-08
 ### Added
