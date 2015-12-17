@@ -29,4 +29,4 @@ class TypeKitTemplateGlobalProvider implements \TemplateGlobalProvider
         return "<script type=\"text/javascript\" src=\"//use.typekit.net/{$siteConfig->TypeKitID}.js\"></script>
             <script type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>";
     }
-} 
+}
