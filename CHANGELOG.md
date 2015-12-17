@@ -6,6 +6,7 @@ All Notable changes to `studiobonito/silverstripe-typekit` will be documented in
 ### Added
 - Created unit tests.
 - Updated module to work with SilverStripe CMS 3.2.
+- Included `.editorconfig` file.
 
 ### Fixed
 - Changed namespace from `TemplateGlobalProvider` to `TemplateGlobalProviders` to match directory name.
