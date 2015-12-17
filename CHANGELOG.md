@@ -6,6 +6,9 @@ All Notable changes to `studiobonito/silverstripe-typekit` will be documented in
 ### Added
 - Created unit tests.
 
+### Fixed
+- Changed namespace from `TemplateGlobalProvider` to `TemplateGlobalProviders` to match directory name.
+
 ## [1.1.0] - 2015-10-08
 ### Added
 - Updated documentation including changelog and contributing guide.

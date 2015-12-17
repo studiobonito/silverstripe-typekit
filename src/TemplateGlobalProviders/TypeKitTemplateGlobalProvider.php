@@ -1,4 +1,4 @@
-<?php namespace StudioBonito\SilverStripe\TypeKit\TemplateGlobalProvider;
+<?php namespace StudioBonito\SilverStripe\TypeKit\TemplateGlobalProviders;
 
 use SiteConfig;
 
